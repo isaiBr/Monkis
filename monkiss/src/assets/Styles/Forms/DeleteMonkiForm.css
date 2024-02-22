@@ -1,0 +1,66 @@
+.mainbox-deleteForm{
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    position:relative;
+}
+
+.mainbox-deleteForm .btn-cerrar{
+    position: absolute;
+    border: none;
+    background: none;
+    width: 35px;
+    right: 10px;
+    top: 10px;
+}
+
+.mainbox-deleteForm .btn-cerrar .logo-cerrar{
+    width: 100%;
+}
+
+.mainbox-deleteForm .monki-delete{
+    width: 70%;
+    height: auto;
+    margin: 20px 0 5px 0;
+}
+
+.mainbox-deleteForm .primer-bloque{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    width: 70%;
+}
+
+.mainbox-deleteForm .segundo-bloque{
+    margin: 0 0 20px 0;
+    color: #898989;
+    font-size: 16px;
+    width: 80%;
+}
+
+.mainbox-deleteForm .confirmar-eliminacion{
+    border: none;
+    border-radius: 20px;
+    width: 60%;
+    height: 50px;
+    margin: 10px 0 15px 0;
+    background: #ED775B;
+    color: white;
+}
+
+.mainbox-deleteForm .cancelar-eliminacion{
+    border:1px solid #ED775B;
+    border-radius: 20px;
+    width: 60%;
+    height: 50px;
+    background: #fff;
+    color: #ED775B;
+}

@@ -1,0 +1,28 @@
+.button-add--main{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FFE1A1;
+    z-index:1;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.button-add--main:hover{
+    background-color: #C0DEAD;;
+    transform: rotate(540deg);
+}
+
+.button-add--main .cara-jeje{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

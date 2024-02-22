@@ -1,0 +1,256 @@
+.mainbox-monkiForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 70%;
+    border-radius: 30px;
+    animation: resize 0.8s ease-out;
+    transform-origin: top;
+}
+
+/* .animacion-cerrar{
+    animation: close 0.5s ease-out;
+    transform-origin: center;
+} */
+
+.mainbox-monkiForm .newMonkiForm{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius:10px;
+    color: 0;
+    position: relative;
+}
+
+.mainbox-monkiForm .newMonkiForm .btn-cerrar{
+    position: absolute;
+    border: none;
+    background: none;
+    width: 35px;
+    right: 10px;
+    top: 10px;
+}
+
+.mainbox-monkiForm .newMonkiForm .btn-cerrar .logo-cerrar{
+    width: 100%;
+}
+
+.mainbox-monkiForm .newMonkiForm .monki-logo{
+    width: 30px;
+    height: auto;
+}
+
+.mainbox-monkiForm .newMonkiForm .nombre-monkiFormulario{
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: black;
+}
+
+.mainbox-monkiForm .newMonkiForm .descripcion-monkiFormulario{
+    margin-bottom: 20px;
+    color: rgb(173, 171, 171);
+    font-size: 14px;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-imagen{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-imagen .cuadro-foto{
+    background-color: #D3C9C9;
+    border-radius: 30px;
+    width: 60%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos 
+.bloque-imagen .cuadro-foto .foto-default{
+    width: 80%;
+    height: auto;
+ }
+
+ .mainbox-monkiForm .newMonkiForm .bloque-datos 
+.bloque-imagen .cuadro-foto .foto-usuario{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+ }
+
+ .mainbox-monkiForm .newMonkiForm .bloque-datos 
+.bloque-imagen .btn-subirFoto{
+    background-color: #5D9DE1;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 45px;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-informacion{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-informacion .nuevaFila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos 
+.bloque-informacion .nuevaFila .label-textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-informacion 
+.nuevaFila .label-textarea .label-monkiFormulario {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #898989;
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-informacion 
+.nuevaFila .label-textarea .textarea-monkiFormulario{
+    margin: 0 0 30px 0;
+    height: 30px;
+    width: 80%;
+    resize: none;
+    border-color: #898989;
+    border-radius: 5px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    text-indent: 10px;
+    line-height: 30px
+}
+
+.mainbox-monkiForm .newMonkiForm .bloque-datos .bloque-informacion 
+.nuevaFila .label-textarea .input-monkiFormulario{
+    margin: 0 0 30px 0;
+    height: 35px;
+    width: 80%;
+    border-color: #898989;
+    border-width: 1px;
+    border-radius: 5px;
+    overflow-y: hidden;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-indent: 5px;
+    line-height: 30px
+}
+
+.mainbox-monkiForm .newMonkiForm .textarea-monkiFormulario::placeholder{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(189, 189, 189);
+    text-justify: center;
+}
+
+.mainbox-monkiForm .newMonkiForm .textarea-monkiFormulario:focus{
+    outline: none;
+}
+
+.mainbox-monkiForm .newMonkiForm .opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.mainbox-monkiForm .newMonkiForm .opciones .add-monki{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    width:25%;
+    border: none;
+    background: #58A4B0;
+    border-radius: 5px;
+    color:#fff;
+}
+
+.mainbox-monkiForm .newMonkiForm .add-monki:hover{
+    box-shadow: 0px 5px 25px rgb(96, 175, 240);
+}
+
+.mainbox-monkiForm .newMonkiForm .opciones .cancel-monki{
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 25%;
+    border: none;
+    background: #ED775B;
+    border-radius: 5px;
+    color:#fff;
+}
+
+.mainbox-monkiForm .newMonkiForm .monkis-durmiendo{
+    align-self: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+@keyframes resize {
+    0%{
+        transform: translateY(-50%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes close {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.1);
+        opacity: 0;
+    }
+}

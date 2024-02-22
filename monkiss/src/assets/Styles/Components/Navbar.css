@@ -1,0 +1,195 @@
+.navbar-box{
+    width: 250px;
+    height: 97.9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #A9BCD0;
+    font-family: 'Montserrat', sans-serif;
+    color: #373F51;
+    z-index: 1;
+    position: fixed;
+    padding: 10px;
+    transition: width 0.5s ease;
+}
+
+.navbar-box span{
+    opacity: 1;
+    width: 100px;
+    white-space: nowrap;
+    transition: opacity 0.5s ease, width 0.5s ease, font-size 0.5s ease;;
+}
+
+.navbar-box span.oculto{
+    opacity: 0;
+    width: 0;
+}
+
+.mini-navbar{
+    width: 50px;
+    overflow: hidden;
+}
+
+.navbar-box .header-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height:40px;
+}
+
+.navbar-box .header-nav .main-chango{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+.navbar-box .header-nav .titulo-pagina{
+    font-size: 28px;
+}
+
+.navbar-box .navbar-opciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    margin-top: -20px;
+    height: 100%;
+}
+
+.navbar-box .navbar-opciones .links-navegacion {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.navbar-box .navbar-opciones .links-navegacion  .active-link{
+    text-decoration: none;
+    background-color: #D8DBE2;
+    border-radius: 20px;
+    color: #1A2B52;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-box .navbar-opciones .links-navegacion  .no-active--link{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar-box .navbar-opciones .links-navegacion  .no-active--link:hover{
+    text-decoration: none;
+    background-color: #C1C2C3;
+    border-radius: 20px;
+    color: #1A2B52;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-box .navbar-opciones .links-navegacion .logo{
+    width: 25px;
+    height: auto;
+    margin: 0 30px 0 12px;
+}
+
+.navbar-box .navbar-opciones .info-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 66%;
+    min-height: 250px;
+    transition: min-height 0.5s ease;
+}
+
+.navbar-box .navbar-opciones .flexible{
+    min-height: 50px;
+}
+
+.navbar-box .navbar-opciones .info-usuario .foto-usuario{
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+.navbar-box .navbar-opciones .info-usuario .flexible{
+    min-width: 50px;
+}
+
+.navbar-box .navbar-opciones .info-usuario .nombre-usuario{
+    font-size: 36px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.navbar-box .navbar-opciones .info-usuario .oculto{
+    font-size: 30px;
+}
+
+.navbar-box .navbar-opciones ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    align-self: center;
+}
+
+.navbar-box .navbar-opciones ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar-box .navbar-opciones .last-part{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+
+}
+
+.navbar-box .navbar-opciones .last-part .btn-logout{
+    border: none;
+    background-color: transparent;
+    color: #1A2B52;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    transition: bottom 0.5s ease;
+}
+
+.navbar-box .navbar-opciones .btn-logout .logo-salida{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+
+.navbar-box .navbar-opciones .btn-logout:hover{
+    /* border-bottom: 1px solid #1A2B52; */
+    cursor: pointer;
+}
+

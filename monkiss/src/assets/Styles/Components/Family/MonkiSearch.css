@@ -1,0 +1,55 @@
+.mainbox-searchAdd{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  flex-direction: row;
+}
+
+.mainbox-searchAdd .bloque-search{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox-searchAdd .bloque-search .input-monkiName{
+  width: 90%;
+  height: 40px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: #373F51;
+  text-indent: 20px;
+}
+
+.mainbox-searchAdd .bloque-search .input-monkiName::placeholder{
+  color: #D8DBE2;
+  font-size: 15px;
+  
+}
+
+.mainbox-searchAdd .bloque-add{
+  width: 30%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox-searchAdd .bloque-add .button-addMonki{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #58A4B0;
+  border: none;
+  gap: 10px;
+}
+
+.mainbox-searchAdd .bloque-add .button-addMonki .logo-nuevo{
+  width: 15px;
+  height: auto;
+}

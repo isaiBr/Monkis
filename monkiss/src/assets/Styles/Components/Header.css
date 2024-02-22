@@ -1,0 +1,19 @@
+.mainbox-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:60px;
+    margin-bottom: 20px;
+}
+
+.mainbox-header .logo-expandir{
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px 0px 10px;
+}
+
+.mainbox-header .titulo-header{
+    color: #373F51;
+    margin-left: 20px;
+}

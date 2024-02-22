@@ -1,0 +1,54 @@
+.form-newActivity{
+    width: 90%;
+    max-width: 500px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+}
+
+.form-newActivity .boton-cerrar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+    background: none;
+    border: none;
+}
+
+.form-newActivity .boton-cerrar:hover{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: red;
+    background: none;
+    border: none;
+}
+
+.label-nueva--actividad{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.nueva-actividad{
+    border: 1px solid black;
+    height: 100px;
+    width: 80%;
+    margin-bottom:20px;
+    text-align: center;
+    resize: none;
+}
+
+.opciones-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
